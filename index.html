@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Game | Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style-prefixed.css" />
+    <link rel="shortcut icon" href="xo.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="startPage"></div>
+    <div class="wrapper">
+      <div class="players-states">
+        <div class="players">
+          <div class="player1">X</div>
+          <div class="vs">V.S</div>
+          <div class="player2">O</div>
+        </div>
+        <div class="scores">
+          <div class="player1-score">0</div>
+          <div class="reset" onclick="resetScore()">Reset</div>
+          <div class="player2-score">0</div>
+        </div>
+      </div>
+      <div class="game-wrap">
+        <div class="game">
+          <div class="title">
+            <p>Tic Tac Toe</p>
+          </div>
+          <div class="items">
+            <div class="item item1" id="item1" onclick="game(this.id)"></div>
+            <div class="item item2" id="item2" onclick="game(this.id)"></div>
+            <div class="item item3" id="item3" onclick="game(this.id)"></div>
+            <div class="item item4" id="item4" onclick="game(this.id)"></div>
+            <div class="item item5" id="item5" onclick="game(this.id)"></div>
+            <div class="item item6" id="item6" onclick="game(this.id)"></div>
+            <div class="item item7" id="item7" onclick="game(this.id)"></div>
+            <div class="item item8" id="item8" onclick="game(this.id)"></div>
+            <div class="item item9" id="item9" onclick="game(this.id)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.min.js"></script>
+  </body>
+</html>
